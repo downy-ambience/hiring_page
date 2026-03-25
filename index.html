@@ -684,6 +684,8 @@
       line-height: 1.9;
       color: rgba(255, 255, 255, 0.88);
       margin-bottom: 24px;
+      word-break: keep-all;
+      overflow-wrap: break-word;
     }
 
     .ceo-statement-body p:last-of-type {
@@ -693,6 +695,12 @@
     .ceo-statement-body strong {
       color: var(--white);
       font-weight: 700;
+    }
+
+    /* ===== PROSE TEXT ===== */
+    .prose {
+      word-break: keep-all;
+      overflow-wrap: break-word;
     }
 
     .ceo-statement-cite {
